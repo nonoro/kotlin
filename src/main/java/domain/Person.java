@@ -17,6 +17,10 @@ public class Person {
         this.name = name;
     }
 
+    public Person(int age) {
+        this.age = age;
+    }
+
     public int getAge() {
         return age;
     }
